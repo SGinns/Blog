@@ -7,12 +7,9 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class DefaultController extends AbstractController
 {
-    /**
-     * @Route("/", name="home")
-     */
     public function home()
     {
-        return $this->render('default/index.html.twig', [
+        return $this->render('home/view.html.twig', [
             'controller_name' => 'DefaultController',
         ]);
     }

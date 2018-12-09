@@ -2,31 +2,15 @@
 
 namespace App\Entity;
 
-use Doctrine\ORM\Mapping as ORM;
-
-/**
- * @ORM\Entity(repositoryClass="App\Repository\EmailRepository")
- */
 class Email
 {
-    /**
-     * @ORM\Id()
-     * @ORM\GeneratedValue()
-     * @ORM\Column(type="integer")
-     */
-    private $id;
     private $emailRecipient;
     private $emailSender;
     private $message;
     private $subject;
 
-    public function getId()
-    {
-        return $this->id;
-    }
-
     /**
-     * @param mixed $emailRecipient
+     * @param string $emailRecipient
      */
     public function setEmailRecipient($emailRecipient)
     {
@@ -34,7 +18,7 @@ class Email
     }
 
     /**
-     * @param mixed $emailSender
+     * @param string $emailSender
      */
     public function setEmailSender($emailSender)
     {
@@ -42,7 +26,7 @@ class Email
     }
 
     /**
-     * @param mixed $message
+     * @param string $message
      */
     public function setMessage($message)
     {
@@ -50,7 +34,7 @@ class Email
     }
 
     /**
-     * @param mixed $subject
+     * @param string $subject
      */
     public function setSubject($subject)
     {
@@ -58,7 +42,7 @@ class Email
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getEmailRecipient()
     {
@@ -66,7 +50,7 @@ class Email
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getEmailSender()
     {
@@ -74,7 +58,7 @@ class Email
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getMessage()
     {
@@ -82,7 +66,7 @@ class Email
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getSubject()
     {
