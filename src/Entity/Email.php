@@ -4,18 +4,9 @@ namespace App\Entity;
 
 class Email
 {
-    private $emailRecipient;
-    private $emailSender;
-    private $message;
-    private $subject;
-
-    /**
-     * @param string $emailRecipient
-     */
-    public function setEmailRecipient($emailRecipient)
-    {
-        $this->emailRecipient = $emailRecipient;
-    }
+    public $emailSender;
+    public $message;
+    public $subject;
 
     /**
      * @param string $emailSender
@@ -39,14 +30,6 @@ class Email
     public function setSubject($subject)
     {
         $this->subject = $subject;
-    }
-
-    /**
-     * @return string
-     */
-    public function getEmailRecipient()
-    {
-        return $this->emailRecipient;
     }
 
     /**
