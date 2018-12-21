@@ -29,7 +29,7 @@ class EmailController extends AbstractController
         $this->SendAnEmailFormValidator->Validate($form);
 
         $message = (new \Swift_Message($email->getSubject()))
-            ->setTo($email->getEmailRecipient())
+            ->setTo("steven.ginns@gmail.com")
             ->setFrom($email->getEmailSender())
             ->setSubject($email->getSubject())
             ->setBody($email->getMessage(), 'text/plain')
