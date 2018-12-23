@@ -14,10 +14,9 @@ class SendAnEmailType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('emailRecipient', EmailType::class, ["label" => "TO: "])
-            ->add('subject', TextType::class, ["label" => "Subject: "])
-            ->add('emailSender', EmailType::class, ["label" => "FROM: "])
-            ->add('message', TextType::class, ["label" => "Message: "])
+            ->add('subject', TextType::class, ["label" => "Subject: ", "required" => true])
+            ->add('emailSender', EmailType::class, ["label" => "FROM: ", "required" => true])
+            ->add('message', TextType::class, ["label" => "Message: ", "required" => true])
             ->add('submit', SubmitType::class, ["label" => "Submit"])
         ;
     }
