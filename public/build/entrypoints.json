@@ -1,0 +1,13 @@
+{
+  "entrypoints": {
+    "SendAnEmail": {
+      "js": [
+        "/build/runtime.js",
+        "/build/SendAnEmail.js"
+      ],
+      "css": [
+        "/build/SendAnEmail.css"
+      ]
+    }
+  }
+}

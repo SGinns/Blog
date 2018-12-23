@@ -5,3 +5,7 @@ home:
 email:
     path: /send-an-email
     controller: App\Controller\EmailController::email
+
+blog:
+    path: /blog-posts
+    controller: App\Controller\BlogPostController::blog
