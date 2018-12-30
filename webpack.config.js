@@ -38,6 +38,7 @@ Encore
 
     // enables Sass/SCSS support
     .enableSassLoader()
+    .addEntry('baseStyling', './assets/scss/base.scss')
 
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()

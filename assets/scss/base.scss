@@ -1,0 +1,23 @@
+// Variables
+$global-font: sans-serif;
+$global-background-color: #F6F6F6;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 100% $global-font;
+  background-color: $global-background-color;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  border: 0;
+  border-radius: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #343a40;
+}
