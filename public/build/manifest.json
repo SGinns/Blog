@@ -1,5 +1,5 @@
 {
-  "build/SendAnEmail.css": "/build/SendAnEmail.css",
-  "build/SendAnEmail.js": "/build/SendAnEmail.js",
+  "build/baseStyling.css": "/build/baseStyling.css",
+  "build/baseStyling.js": "/build/baseStyling.js",
   "build/runtime.js": "/build/runtime.js"
 }

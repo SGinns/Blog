@@ -1,12 +1,12 @@
 {
   "entrypoints": {
-    "SendAnEmail": {
+    "baseStyling": {
       "js": [
         "/build/runtime.js",
-        "/build/SendAnEmail.js"
+        "/build/baseStyling.js"
       ],
       "css": [
-        "/build/SendAnEmail.css"
+        "/build/baseStyling.css"
       ]
     }
   }
