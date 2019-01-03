@@ -4,9 +4,15 @@
 .env.test
 /.env.local
 /.env.*.local
+
 /public/bundles/
+/public/build/*.css
+/public/build/*.js
+
 /var/
+
 /vendor/
+
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
