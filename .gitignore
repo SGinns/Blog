@@ -7,7 +7,6 @@
 /public/bundles/
 /var/
 /vendor/
-/templates/
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
