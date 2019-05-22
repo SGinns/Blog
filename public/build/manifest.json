@@ -1,5 +1,8 @@
 {
   "build/baseStyling.css": "/build/baseStyling.css",
   "build/baseStyling.js": "/build/baseStyling.js",
-  "build/runtime.js": "/build/runtime.js"
+  "build/javascriptTest.js": "/build/javascriptTest.js",
+  "build/numericVariable.js": "/build/numericVariable.js",
+  "build/runtime.js": "/build/runtime.js",
+  "build/stringVariable.js": "/build/stringVariable.js"
 }

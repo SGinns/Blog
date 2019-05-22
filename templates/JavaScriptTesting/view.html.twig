@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}JavaScript Testing Home{% endblock title %}
+
+{% block stylesheets %}
+{% endblock stylesheets %}
+
+{% block body %}
+    <p><b><u>Output for the welcome script:</u></b></p><!-- new script -->
+    <div id="WelcomeMessage"></div>
+    <br/>
+    <p><b><u>Output for the numeric variable script:</u></b></p><!-- new script -->
+    <div id="NumericVariable"></div>
+    <br />
+    <p><b><u>Output for the string variable script:</u></b></p><!-- new script -->
+    <div id="Name"></div>
+{% endblock body %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('javascriptTest') }}
+    {{ encore_entry_script_tags('numericVariable') }}
+    {{ encore_entry_script_tags('stringVariable') }}
+{% endblock javascripts %}

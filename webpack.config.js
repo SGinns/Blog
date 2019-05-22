@@ -17,7 +17,9 @@ Encore
      * Each entry will result in one JavaScript file (e.g. app.js)
      * and one CSS file (e.g. app.css) if you JavaScript imports CSS.
      */
-    //.addEntry('page2', './assets/js/page2.js')
+    .addEntry('javascriptTest', './assets/js/JSBookCh01Ex01.js')
+    .addEntry('numericVariable', './assets/js/NumericVariable.js')
+    .addEntry('stringVariable', './assets/js/StringVariable')
 
     // will require an extra script tag for runtime.js
     // but, you probably want this, unless you're building a single-page app

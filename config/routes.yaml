@@ -1,11 +1,28 @@
-home:
+Home:
     path: /
     controller: App\Controller\DefaultController::home
 
-email:
+Email:
     path: /send-an-email
     controller: App\Controller\EmailController::email
 
-blog:
+Blog:
     path: /blog-posts
     controller: App\Controller\BlogPostController::blog
+
+JavaScriptHome:
+    path: /javascript-home
+    controller: App\Controller\JavaScriptTestingController::javaScriptHome
+
+AboutMe:
+    path: /about-me
+    controller: App\Controller\DefaultController::aboutMe
+
+Checklist:
+    path: /checklist
+    controller: App\Controller\ChecklistController::checklist
+
+Login:
+    path: /login
+    controller: App\Controller\SecurityController::login
+    methods: GET|POST

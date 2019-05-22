@@ -1,5 +1,23 @@
 {
   "entrypoints": {
+    "javascriptTest": {
+      "js": [
+        "/build/runtime.js",
+        "/build/javascriptTest.js"
+      ]
+    },
+    "numericVariable": {
+      "js": [
+        "/build/runtime.js",
+        "/build/numericVariable.js"
+      ]
+    },
+    "stringVariable": {
+      "js": [
+        "/build/runtime.js",
+        "/build/stringVariable.js"
+      ]
+    },
     "baseStyling": {
       "js": [
         "/build/runtime.js",

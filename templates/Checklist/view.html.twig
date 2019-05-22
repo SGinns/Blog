@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Checklist{% endblock title %}
+
+{% block body %}
+    {% for i in items %}
+        <p>{{ i }}</p>
+    {% endfor %}
+    {{ form_start(checklist_form) }}
+    {{ form_widget(checklist_form.item, { 'value': '' }) }}
+    {{ form_end(checklist_form) }}
+{% endblock body %}
+
+{% block javascripts %}
+{% endblock javascripts %}
